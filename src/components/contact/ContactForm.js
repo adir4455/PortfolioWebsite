@@ -11,7 +11,6 @@ function ContactForm() {
           name="contact v1"
           method="post"
           data-netlify="true"
-          data-netlify-recaptcha="true"
           onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact v1" />
@@ -46,9 +45,6 @@ function ContactForm() {
               placeholder="Enter Message"
               name="message"
             ></textarea>
-            <div className="my-2">
-              <div data-netlify-recaptcha="true"></div>
-            </div>
           </div>
           <button type="submit" className="btn-dark">
             Submit

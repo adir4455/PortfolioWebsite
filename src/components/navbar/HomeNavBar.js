@@ -33,9 +33,9 @@ function HomeNavBar() {
                 data-words='[" Developer", " Desinger"]'
               ></span>
             </h1>
-            <a href="/work" class="btn-light">
+            <Link to="/work" class="btn-light">
               View My Projects
-            </a>
+            </Link>
           </div>
 
           <TypeWriter />

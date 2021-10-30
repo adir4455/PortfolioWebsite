@@ -8,12 +8,12 @@ function ContactForm() {
         <div className="bottom-line"></div>
         <p className="lead">Here is how you can reach me</p>
         <form
-          name="contact v1"
-          method="post"
+          name="contact"
+          method="POST"
           data-netlify="true"
           onSubmit="submit"
         >
-          <input type="hidden" name="form-name" value="contact v1" />
+          <input type="hidden" name="form-name" value="contact" />
           <div className="text-fields">
             <input
               type="text"

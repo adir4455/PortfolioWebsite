@@ -6,6 +6,18 @@ import { Link } from "react-router-dom";
 function HomeNavBar() {
   return (
     <>
+      <form
+        name="contact"
+        netlify
+        netlify-honeypot="bot-field"
+        action="/"
+        hidden
+      >
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
+
       <header id="header-home">
         <div class="container">
           <nav id="main-nav">

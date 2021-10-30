@@ -14,15 +14,24 @@ ReactDOM.render(
       data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact" />
-      <input
-        type="text"
-        className="text-input name-input"
-        placeholder="Name"
-        name="name"
-      />
-      <button type="submit" className="btn-dark">
-        Submit
-      </button>
+      <p>
+        <label>
+          Your Name: <input type="text" name="name" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Your Email: <input type="email" name="email" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Message: <textarea name="message"></textarea>
+        </label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </form>
     <AppProvider>
       <App />

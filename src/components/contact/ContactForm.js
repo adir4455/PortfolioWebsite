@@ -12,9 +12,10 @@ function ContactForm() {
           method="post"
           data-netlify="true"
           data-netlify-recaptcha="true"
+          onSubmit="submit"
         >
+          <input type="hidden" name="form-name" value="contact v1" />
           <div className="text-fields">
-            <input type="hidden" name="form-name" value="contact v1" />
             <input
               type="text"
               className="text-input name-input"

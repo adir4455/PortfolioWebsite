@@ -15,7 +15,6 @@ function App() {
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit="submit"
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="text-fields">

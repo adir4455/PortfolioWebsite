@@ -9,8 +9,9 @@ function ContactForm() {
         <p className="lead">Here is how you can reach me</p>
         <form
           name="contact"
-          method="POST"
+          method="post"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact" />

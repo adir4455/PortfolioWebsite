@@ -1,6 +1,7 @@
 import React from "react";
 import TypeWriter from "../../js/TypeWriter";
 import AElogo from "../../img/AElogo.png";
+import { Link } from "react-router-dom";
 
 function HomeNavBar() {
   return (
@@ -11,18 +12,15 @@ function HomeNavBar() {
             <img src={AElogo} alt="My Portfolio" id="logo" />
             <ul>
               <li>
-                <a href="/" class="current">
+                <Link to="/" class="current">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about">About</a>
+                <Link to="/work">Projects</Link>
               </li>
               <li>
-                <a href="/work">Work</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -36,7 +34,7 @@ function HomeNavBar() {
               ></span>
             </h1>
             <a href="/work" class="btn-light">
-              View My Work
+              View My Projects
             </a>
           </div>
 

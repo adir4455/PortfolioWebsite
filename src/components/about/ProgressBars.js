@@ -22,7 +22,7 @@ function ProgressBars() {
         <div className="progress">
           <div style={{ width: "50%" }}></div>
         </div>
-        <h4>C++:</h4>
+        <h4>C:</h4>
         <div className="progress">
           <div style={{ width: "80%" }}></div>
         </div>

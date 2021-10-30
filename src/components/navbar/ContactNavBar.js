@@ -1,5 +1,6 @@
 import React from "react";
 import AElogo from "../../img/AElogo.png";
+import { Link } from "react-router-dom";
 
 function AboutNavBar() {
   return (
@@ -10,18 +11,15 @@ function AboutNavBar() {
             <img src={AElogo} alt="My Portfolio" id="logo" />
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/about">About</a>
+                <Link to="/work">Projects</Link>
               </li>
               <li>
-                <a href="/work">Work</a>
-              </li>
-              <li>
-                <a href="/contact" class="current">
+                <Link to="/contact" class="current">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

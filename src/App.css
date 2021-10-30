@@ -369,7 +369,7 @@ img {
 #about-a .about-info {
   display: grid;
   grid-template-areas:
-    "bioimage bio bio"
+    "bio bio bio"
     "aw1 aw2 aw3";
   grid-gap: 1.2rem;
 }
@@ -379,6 +379,7 @@ img {
 #about-a .about-info .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
+  border-right: 3px solid #ffbc00;
   padding: 0.8rem;
 }
 #about-a .about-info .award-1 {

@@ -18,7 +18,7 @@ function ProgressBars() {
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
-        <h4>Phyton:</h4>
+        <h4>Pyhton:</h4>
         <div className="progress">
           <div style={{ width: "50%" }}></div>
         </div>

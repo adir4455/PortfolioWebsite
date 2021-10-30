@@ -7,8 +7,14 @@ function ContactForm() {
         <h2 className="section-title">Contact Me</h2>
         <div className="bottom-line"></div>
         <p className="lead">Here is how you can reach me</p>
-        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <form
+          name="contact v1"
+          method="post"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
           <div className="text-fields">
+            <input type="hidden" name="form-name" value="contact v1" />
             <input
               type="text"
               className="text-input name-input"

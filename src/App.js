@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    document.title = "PortfolioAE"
     <div>
+      <title>PortfolioAE</title>
       <Router>
         <Switch>
           <Route exact path="/">

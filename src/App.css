@@ -478,6 +478,13 @@ img {
   width: 50%;
 }
 
+#contact-a .submit {
+  margin-top: 1%;
+  font-size: 1.5rem;
+  color: rgb(54, 173, 54);
+  font-weight: bold;
+}
+
 #contact-b .contact-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

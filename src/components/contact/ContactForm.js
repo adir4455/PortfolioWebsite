@@ -24,6 +24,7 @@ function ContactForm() {
         }
       );
     e.target.reset();
+    setIsSubmitted(true);
   }
 
   return (
@@ -40,18 +41,21 @@ function ContactForm() {
                 className="text-input name-input"
                 placeholder="Name"
                 name="name"
+                required
               />
               <input
                 type="text"
                 className="text-input subject-input"
                 placeholder="Subject"
                 name="subject"
+                required
               />
               <input
                 type="email"
                 className="text-input email-input"
                 placeholder="Email Address"
                 name="email"
+                required
               />
               <input
                 type="text"
@@ -64,13 +68,10 @@ function ContactForm() {
                 className="text-input message-input"
                 placeholder="Enter Message"
                 name="message"
+                required
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className="btn-dark"
-              onClick={() => setIsSubmitted(true)}
-            >
+            <button type="submit" className="btn-dark">
               Submit
             </button>
           </form>

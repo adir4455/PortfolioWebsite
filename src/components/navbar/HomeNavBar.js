@@ -30,7 +30,7 @@ function HomeNavBar() {
               <span
                 class="txt-type"
                 data-wait="3000"
-                data-words='[" Developer", " Desinger"]'
+                data-words='[" Developer", " Progammer"]'
               ></span>
             </h1>
             <Link to="/work" class="btn-light">

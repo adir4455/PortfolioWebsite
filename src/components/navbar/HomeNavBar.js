@@ -1,7 +1,10 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import TypeWriter from "../../js/TypeWriter";
 import AElogo from "../../img/AElogo.png";
 import { Link } from "react-router-dom";
+import { useGlobalContext } from "../../context";
+import { faWindows } from "@fortawesome/free-brands-svg-icons";
 
 function HomeNavBar() {
   return (

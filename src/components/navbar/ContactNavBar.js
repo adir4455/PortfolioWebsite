@@ -1,8 +1,10 @@
 import React from "react";
 import AElogo from "../../img/AElogo.png";
 import { Link } from "react-router-dom";
+import { useGlobalContext } from "../../context";
 
 function AboutNavBar() {
+  const { reloadPage } = useGlobalContext();
   return (
     <>
       <header id="header-inner">
@@ -11,7 +13,9 @@ function AboutNavBar() {
             <img src={AElogo} alt="My Portfolio" id="logo" />
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={reloadPage}>
+                  Home
+                </Link>
               </li>
               <li>
                 <Link to="/work">Projects</Link>

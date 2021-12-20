@@ -8,11 +8,11 @@ function ProgressBars() {
         <div className="bottom-line"></div>
         <h4>ReactJS:</h4>
         <div className="progress">
-          <div style={{ width: "80%" }}></div>
+          <div style={{ width: "100%" }}></div>
         </div>
         <h4>JavaScript:</h4>
         <div className="progress">
-          <div style={{ width: "80%" }}></div>
+          <div style={{ width: "100%" }}></div>
         </div>
         <h4>HTML & CSS:</h4>
         <div className="progress">
@@ -20,11 +20,11 @@ function ProgressBars() {
         </div>
         <h4>Python:</h4>
         <div className="progress">
-          <div style={{ width: "50%" }}></div>
+          <div style={{ width: "100%" }}></div>
         </div>
         <h4>C:</h4>
         <div className="progress">
-          <div style={{ width: "80%" }}></div>
+          <div style={{ width: "100%" }}></div>
         </div>
       </div>
     </section>

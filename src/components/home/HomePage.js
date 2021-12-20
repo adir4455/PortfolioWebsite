@@ -11,7 +11,7 @@ function HomePage() {
     <>
       <HomeNavBar />
       <Info />
-      // <ProgressBars />
+      <ProgressBars />
       {/*     
       // <Specialize /> Update in future
       // <Process /> Update in future

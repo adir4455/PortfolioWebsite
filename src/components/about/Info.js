@@ -16,8 +16,8 @@ function Info() {
           <div className="bio bg-light">
             <h4>Adir Elmakyes, Computer Science Student</h4>
             <p>
-              Computer Science Student skilled in ReactJS, JavaScript, CSS,
-              HTML, Phyton and C.
+              Computer Science Student, FULL of passion, skilled in ReactJS,
+              JavaScript, CSS, HTML5 and TypeScript.
             </p>
           </div>
         </div>

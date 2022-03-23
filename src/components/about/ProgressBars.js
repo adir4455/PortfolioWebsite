@@ -14,15 +14,15 @@ function ProgressBars() {
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
-        <h4>HTML & CSS:</h4>
+        <h4>HTML5 & CSS:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
-        <h4>Python:</h4>
+        <h4>TypeScript:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
-        <h4>C:</h4>
+        <h4>NodeJS:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>

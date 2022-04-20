@@ -6,6 +6,10 @@ function ProgressBars() {
       <div className="container">
         <h2 className="section-title">Technical Skills</h2>
         <div className="bottom-line"></div>
+        <h4>Swift:</h4>
+        <div className="progress">
+          <div style={{ width: "100%" }}></div>
+        </div>
         <h4>ReactJS:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
@@ -14,15 +18,19 @@ function ProgressBars() {
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
-        <h4>HTML5 & CSS:</h4>
-        <div className="progress">
-          <div style={{ width: "100%" }}></div>
-        </div>
         <h4>TypeScript:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
         <h4>NodeJS:</h4>
+        <div className="progress">
+          <div style={{ width: "100%" }}></div>
+        </div>
+        <h4>Python:</h4>
+        <div className="progress">
+          <div style={{ width: "100%" }}></div>
+        </div>
+        <h4>C / C++:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
         </div>
